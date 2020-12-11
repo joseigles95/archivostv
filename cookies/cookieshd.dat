@@ -1,0 +1,10 @@
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.hdfull.io	TRUE	/	FALSE		__cfduid	dea440b0eceee5e2dec8f326a6fc509c81586861644
+.hdfull.lv	TRUE	/	FALSE	1603572908	__cfduid	d95d933f3e4deed74132f5b534beae99d1600980908
+hdfull.io	FALSE	/	FALSE		PHPSESSID	1glols8913iurfs25rcmk539c7
+hdfull.la	FALSE	/	FALSE		PHPSESSID	eepol6dm7994a4nfdd1cm9t8r0
+hdfull.lv	FALSE	/	FALSE		PHPSESSID	97pabs8c4cejdif5kf43knc0c0
+hdfull.lv	FALSE	/	FALSE	1603572909	guid	292223%7Cb71e6d74bca1b059183840379077152a

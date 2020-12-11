@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<items>
+<playlist_name><![CDATA[HDFULL]]></playlist_name>
+
+
+<channel>       
+<title><![CDATA[Buscar]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/buscar.png">Busca peliculas y series!]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/losperdidos1212/1313/master/HMStream.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+<ts_stream><![CDATA[0]]></ts_stream>
+<tipo><![CDATA[hdfullBusca]]></tipo>
+</channel>
+
+<channel>       
+<title><![CDATA[Navegar en Estrenos]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/taquis.jpg">Peliculas de Estrenos]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/losperdidos1212/1313/master/HMStream.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+<ts_stream><![CDATA[0]]></ts_stream>
+<tipo><![CDATA[hdfullEstrenos]]></tipo>
+</channel>
+
+<!--
+<channel>       
+<title><![CDATA[Navegar en Peliculas]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/taquis.jpg">Peliculas del 1950 al 2020]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/losperdidos1212/1313/master/HMStream.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+<ts_stream><![CDATA[0]]></ts_stream>
+<tipo><![CDATA[hdfullPelis]]></tipo>
+</channel>
+-->
+
+<channel>       
+<title><![CDATA[Navegar en Series]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/taquis.jpg">Todo tipo de series]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/losperdidos1212/1313/master/HMStream.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+<ts_stream><![CDATA[0]]></ts_stream>
+<tipo><![CDATA[hdfullSeries]]></tipo>
+</channel>
+
+<channel>       
+<title><![CDATA[Series A-Z]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/taquis.jpg">Todo tipo de series]]></description>
+<playlist_url><![CDATA[/cosas/Series_AZ_HDFULL.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+</channel>
+
+
+
+
+
+
+
+
+
+
+<prev_page_url text="CH- ATRAS"><![CDATA[/cosas/archivostv.xml]]></prev_page_url>
+
+</items>

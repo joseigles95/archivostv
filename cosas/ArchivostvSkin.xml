@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--  Skin: nStreamPlayer HD -->
+<skin>
+
+
+<screen name="artvPlaylist" position="0,0" size="1920,1080" backgroundColor="#41000000" flags="wfNoBorder" title="Playlist">
+<ePixmap position="0, 0" size="1920,1080" zPosition="1" transparent="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/menu-bg.png" />
+<widget name="feedlist" position="90,129" size="1100,470" foregroundColorSelected="#e1df42" backgroundColor="un41000000" foregroundColor="white" backgroundColorSelected="#41000000" selectionPixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/barrahd.png" itemHeight="57" enableWrapAround="1" zPosition="3" scrollbarMode="showOnDemand" transparent="1" />
+<widget backgroundColor="un41000000" foregroundColor="white" position="90,650" size="1100,214" name="description" font="Regular; 26" zPosition="2" transparent="1" text="AAAAA" />
+<widget backgroundColor="un41000000" foregroundColor="#6ba4c9" position="130,55" size="1100,60" name="playlist" zPosition="3" font="Regular;46" transparent="1" />
+<widget name="time" position="1633,927" size="150,60" font="Regular; 48" foregroundColor="white" backgroundColor="un41000000" transparent="1" halign="left" zPosition="3" valign="center" />
+<ePixmap name="" position="87,48" size="1200,64" zPosition="2" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/barraplaylisthd.png" transparent="1" />
+<eLabel name="" position="1221,927" size="400,60" text="Archivostv-Team 0.0.1" foregroundColor="unffff00" font="Regular; 48" halign="center" transparent="1" zPosition="3" />
+<widget name="poster" position="1286,164" size="500,700" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/clearhd.png" zPosition="3" transparent="1" alphatest="blend" />
+<ePixmap position="90,928" size="40,40" zPosition="3" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/key_redhd.png" />
+<widget name="pixmap2a" position="230,928" size="40,40" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/menoshd.png" zPosition="3" transparent="1" alphatest="blend" />
+<ePixmap name="" position="1195,916" size="600,60" zPosition="2" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/barralogohd.png" transparent="0" />
+<eLabel position="135,934" zPosition="4" size="80,28" halign="left" font="Regular; 22" transparent="1" foregroundColor="unff0000" backgroundColor="un41000000" text="INICIO" valign="center" />
+<widget name="chminus" position="275,934" zPosition="4" size="165,28" halign="left" font="Regular; 22" transparent="1" foregroundColor="white" backgroundColor="un41000000" valign="center" text="AAAA" />
+<ePixmap position="450,928" size="40,40" zPosition="4" transparent="1" alphatest="blend" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/stophd.png" />
+<widget backgroundColor="background" font="Regular; 38" halign="right" position="1426,87" render="Label" size="210,40" source="global.CurrentTime" transparent="1" zPosition="3">
+ <convert type="ClockToText">Format:%d.%m.%Y</convert>
+</widget>
+</screen>
+
+
+
+<!--<screen name="artvIPTVplayer" position="0,0" size="1920,1080" backgroundColor="transparent" flags="wfNoBorder" title="IPTVplayer">
+<ePixmap position="0,880" size="1920,200" zPosition="1" transparent="0" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/infobarhd.png" />
+<widget position="240,891" halign="center" size="96,42" foregroundColor="#ffffff" zPosition="2" name="channel_number" transparent="1" font="Regular; 28" />
+<widget position="240,938" size="975,51" foregroundColor="#ffffff" backgroundColor="#41000000" name="channel_name" font="Regular;34" zPosition="2" transparent="1" />
+<widget position="1221,943" size="450,39" halign="right" foregroundColor="#f4df8d" backgroundColor="#41000000" name="group" font="Regular;26" zPosition="2" transparent="1" />
+<widget name="picon" position="114,975" size="52,52" backgroundColor="#41000000" zPosition="2" transparent="1" />
+<widget position="450,995" size="975,37" foregroundColor="#ffffff" backgroundColor="#41000000" name="programm" font="Regular;24" zPosition="2" transparent="1" />
+<widget position="1572,894" size="99,39" foregroundColor="#ffffff" halign="center" zPosition="2" name="time_now" transparent="1" font="Regular;24" />
+<widget source="session.CurrentService" render="Label" zPosition="4" position="1648,989" size="90,33" halign="right" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background">
+<convert type="ServiceInfo">VideoWidth</convert>
+</widget>
+<eLabel text="x" zPosition="4" position="1740,1189" size="22,33" halign="left" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background" />
+<widget source="session.CurrentService" render="Label" zPosition="4" position="1762,989" size="82,33" halign="left" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background">
+<convert type="ServiceInfo">VideoHeight</convert>
+</widget>
+</screen>-->
+
+<screen name ="AjustesPluginArchivosTV" position="center,center" size="1143,536 " backgroundColor="darkgrey" title="Actualizador" >
+	<widget name="list" position="965,450" size="166,80"  zPosition="0"/>
+	<widget name="NombreNews" position="313,20" size="689,68" zPosition="1" transparent="0" foregroundColor="#f4df8d" font="Regular; 40" text="  CAMBIOS DE LA VERSION" backgroundColor="darkgrey" /> \
+	<widget name="news" position="11,106" size="1120,334" zPosition="1" transparent="0" foregroundColor="#f4df8d" font="Regular;30" backgroundColor="darkgrey" />
+</screen>
+
+<screen name ="VentanaCambios" position="center,center" size="1143,536 " backgroundColor="darkgrey" title="INFO:" >
+	<widget name="NombreNews" position="313,20" size="689,68" zPosition="1" transparent="0" foregroundColor="#f4df8d" font="Regular; 40" text="  CAMBIOS DE LA VERSION" backgroundColor="darkgrey" /> \
+	<widget name="news" position="11,106" size="1120,334" zPosition="1" transparent="0" foregroundColor="#f4df8d" font="Regular;30" backgroundColor="darkgrey" />
+</screen>
+
+
+<screen name="artvplayer" position="320,920" size="2280,190" backgroundColor="#41000000" flags="wfNoBorder" title="www.archivotv.com">
+	<ePixmap position="62,11" size="88,57" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/player.png" zPosition="1" transparent="0" />
+	<widget name="state" font="RegularIPTV;18" position="67,31" size="80,24" transparent="1" backgroundColor="#41000000" foregroundColor="#ffffff" zPosition="10" />
+	<widget name="cover" position="1107, 10" size="120,160" zPosition="1" transparent="1" alphatest="blend" />
+	<widget source="session.CurrentService" foregroundColor="#fa3d3d" render="Label" position="190,8"  size="90,20" font="RegularIPTV;18" halign="left" valign="center" backgroundColor="#06224f" transparent="1">
+		<convert type="ServicePosition">Position</convert>
+	</widget>
+	<ePixmap  pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/slider_1280x10_hbg.png" position="190,35" size="900,10" zPosition="1" />
+	<widget source="session.CurrentService" render="PositionGauge" backgroundColor="#206df9" position="190,35" size="900,10" zPosition="2" pointer="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/slider_1280x10_hfg.png:1290,0" transparent="1">
+		<convert type="ServicePosition">Gauge</convert>
+	</widget>
+	<widget source="session.CurrentService" foregroundColor="#ffffff" render="Label" position="190,50" size="800,70" font="RegularIPTV;30" backgroundColor="#41000000" transparent="1">
+		<convert type="ServiceName">Name</convert>
+	</widget>
+	<widget source="session.CurrentService" foregroundColor="#ffffff" render="Label" position="990,50" size="100,30" font="RegularIPTV;30" halign="right" backgroundColor="#41000000" transparent="1">
+		<convert type="ServicePosition">Length</convert>
+	</widget>
+	<widget source="session.CurrentService" foregroundColor="#206df9" render="Label" position="1000,8" size="90,20" zPosition="2" font="RegularIPTV;20" halign="right" valign="center" backgroundColor="#41000000" transparent="1">
+		<convert type="ServicePosition">Remaining</convert>
+	</widget>
+	<!-- <ePixmap position="1160,40" size="75,91" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/kino.png"    zPosition="3" transparent="1" alphatest="blend" /> -->
+
+	<!-- HELP GRAPHS -->
+	<ePixmap position="190,125" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />
+	<ePixmap position="193,128" size="32,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/play.png"  zPosition="3" transparent="1" alphatest="blend" />
+	<ePixmap position="227,128" size="32,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/pause.png"  zPosition="3" transparent="1" alphatest="blend" />		
+	<eLabel position="261,132" zPosition="4" size="118,20" halign="center" font="RegularIPTV;18" transparent="1" foregroundColor="#ffffff" backgroundColor="#41000000" text="Play / Pause" /> 		
+
+	<ePixmap position="426,125" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />
+	<ePixmap position="429,128" size="32,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/blue.png"   zPosition="3" transparent="1" alphatest="blend" /> 
+	<widget name="cont_play" position="463,132" zPosition="4" size="152,20" halign="center" font="RegularIPTV;18" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="" /> 		
+
+	<ePixmap position="660,125" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />
+	<ePixmap position="663,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/1.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="690,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="-10s" /> 		
+
+	<ePixmap position="727,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/4.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="753,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="-1m" /> 		
+
+	<ePixmap position="790,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/7.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="817,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="-5m" /> 		
+
+	<ePixmap position="898,125" size="192,30" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/rahmen_big.png" zPosition="1" transparent="1" alphatest="blend" />		
+	<ePixmap position="901,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/3.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="928,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="+10s" /> 		
+
+	<ePixmap position="965,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/6.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="991,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="+1m" /> 		
+
+	<ePixmap position="1026,128" size="25,24" pixmap="/usr/lib/enigma2/python/Plugins/Extensions/archivostv/img/9.png"   zPosition="3" transparent="1" alphatest="blend" />
+	<eLabel position="1053,134" zPosition="4" size="32,16" halign="center" font="RegularIPTV;14" transparent="0" foregroundColor="#ffffff" backgroundColor="#41000000" text="+5m" />
+	
+    <widget source="session.CurrentService" render="Label" zPosition="4" position="27,128" size="55,22" halign="right" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background">
+      <convert type="ServiceInfo">VideoWidth</convert>
+    </widget>
+    <eLabel text="x" zPosition="4" position="88,128" size="15,22" halign="left" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background" />
+    <widget source="session.CurrentService" render="Label" zPosition="4" position="104,128" size="55,22" halign="left" font="Regular;22" foregroundColor="white" transparent="1" backgroundColor="background">
+      <convert type="ServiceInfo">VideoHeight</convert>
+    </widget>
+	 		
+	</screen> 
+	       
+	       
+</skin>

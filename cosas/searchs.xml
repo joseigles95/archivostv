@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<items>
+<playlist_name>Buscadores</playlist_name>
+  	
+<channel>       
+<title><![CDATA[Buscador Aun No Funciona]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="">]]></description>
+<playlist_url><![CDATA[]]></playlist_url>
+</channel>
+	
+
+<next_page_url text="FAVORITOS"><![CDATA[nStreamFavorites.xml]]></next_page_url>
+<prev_page_url text="ATRAS"><![CDATA[/cosas/archivostv.xml]]></prev_page_url>
+<search_on text="BUSCAR"><![CDATA[search]]></search_on>
+</items>
+	 
+	 

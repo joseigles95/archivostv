@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<items>
+<playlist_name><![CDATA[ARCHIVOS TV]]></playlist_name>
+
+
+
+
+
+
+<channel>       
+<title><![CDATA[HDFULL]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="https://pbs.twimg.com/profile_images/500690132341497859/yKFj2psk_400x400.jpeg">Peliculas de estreno en hdfull]]></description>
+<playlist_url><![CDATA[hdfull.comcom]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+</channel>
+
+<!--
+<channel>       
+<title><![CDATA[Prueba UPTOBOX]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="La imagen que quieras aqui">y aqui la descripcion]]></description>
+<playlist_url><![CDATA[https://uptobox.com/vmkfnmq0zpil]]></playlist_url>
+<stream_url><![CDATA[http://ps3plusteam.ddns.net/teamps3plus/pro/uptobox.txt]]></stream_url>
+<tipo><![CDATA[hdfullLinks]]></tipo>
+<buffer_kb>30000</buffer_kb>
+</channel>
+-->
+
+
+
+
+
+
+
+
+
+
+
+<prev_page_url text="CH- ATRAS"><![CDATA[/cosas/archivostv.xml]]></prev_page_url>
+
+</items>

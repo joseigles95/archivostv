@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<items>
+<playlist_name><![CDATA[MEGADEDE]]></playlist_name>
+
+<channel>       
+<title><![CDATA[Buscar]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/buscar.png">Busca peliculas y series!]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/losperdidos1212/1313/master/HMStream.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+<ts_stream><![CDATA[0]]></ts_stream>
+<tipo><![CDATA[megadedeBusca]]></tipo>
+</channel>
+
+<channel>       
+<title><![CDATA[Navegar en Estrenos]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/taquis.jpg">Peliculas de Estreno]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/losperdidos1212/1313/master/HMStream.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+<ts_stream><![CDATA[0]]></ts_stream>
+<tipo><![CDATA[megadedeEstrenos]]></tipo>
+</channel>
+
+<channel>       
+<title><![CDATA[Navegar en Peliculas]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/taquis.jpg">Peliculas desde los años 1950 hasta el 2020]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/losperdidos1212/1313/master/HMStream.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+<ts_stream><![CDATA[0]]></ts_stream>
+<tipo><![CDATA[megadedePelis]]></tipo>
+</channel>
+
+<channel>       
+<title><![CDATA[Navegar en Series]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/taquis.jpg">Series de todos los tiempos]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/losperdidos1212/1313/master/HMStream.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+<ts_stream><![CDATA[0]]></ts_stream>
+<tipo><![CDATA[megadedeSeries]]></tipo>
+</channel>
+
+<channel>       
+<title><![CDATA[La Unidad]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/taquis.jpg">Series de todos los tiempos]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/losperdidos1212/1313/master/HMStream.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+<ts_stream><![CDATA[0]]></ts_stream>
+<tipo><![CDATA[megadedeunidad]]></tipo>
+</channel>
+
+
+
+<channel>       
+<title><![CDATA[Navegar en Listas]]></title>
+<logo_30x30></logo_30x30>
+<description><![CDATA[<img src="http://ps3plusteam.ddns.net/ps3plus/images/letras/taquis.jpg">Portal Dedicado Al Streaming De Peliculas Y Series De Alta Calidad]]></description>
+<playlist_url><![CDATA[https://raw.githubusercontent.com/losperdidos1212/1313/master/HMStream.xml]]></playlist_url>
+<buffer_kb>30000</buffer_kb>
+<ts_stream><![CDATA[0]]></ts_stream>
+<tipo><![CDATA[megadedeListas]]></tipo>
+</channel>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<prev_page_url text="CH- ATRAS"><![CDATA[/cosas/archivostv.xml]]></prev_page_url>
+
+</items>

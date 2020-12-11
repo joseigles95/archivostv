@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+<playlist_name>Favoritos</playlist_name>
+
+<channel>
+<title><![CDATA[Nombre]]></title>
+<logo_30x30><![CDATA[]]></logo_30x30>
+<description><![CDATA[<img src="" />]]></description>
+<stream_url><![CDATA[]]></stream_url>
+<buffer_kb>20480</buffer_kb>
+</channel>
+ 
+
+
+<channel>      
+<title><![CDATA[Nombre]]></title> 
+<logo_30x30></logo_30x30> 
+<description><![CDATA[<img src=""/>]]></description> 
+<playlist_url><![CDATA[]]></playlist_url>  
+<buffer_kb>20480</buffer_kb>
+</channel>
+
+<prev_page_url text="CH- ATRAS"><![CDATA[archivostv.xml]]></prev_page_url>
+
+</items>
